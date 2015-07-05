@@ -50,8 +50,8 @@ public:
     template<typename Operator, typename... Args>
     void for_each(Args&&... args);
 
-protected:
     std::vector<T> m_kernel;
+protected:
 
     glm::uint16 m_width;
     glm::uint16 m_height;
